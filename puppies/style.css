@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&ffamily=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	margin: 0;
+}
+h1, h2, h3{
+	font-family: 'Raleway', sans-serif;
+	color: #358597;
+}
+
+h1{
+	background-color: #F4A896;
+	text-align: center;
+	font-size: 4em;
+	border-bottom: #358597;
+	border-top: #358597;
+}
+a:link{
+color: #F4A896;
+}
+a:visited{
+color: #F4A896;
+}
+a:hover{
+color: hotpink;
+}
+a:active{
+color: black;
+}
+nav{
+	background-color: #358597;
+	border-top: 5px #F4A896 solid;
+	border-bottom: 5px #F4A896 solid;
+	padding: 5px;
+	font-size: 1.5em;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: #F4A896;
+}
+nav a:visited{
+	color: yellowgreen;
+}
+nav a:hover{
+	color: hotpink;
+}
+nav a:active{
+	color: darkgray;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-color: #358597;
+	font-size: 1em;
+}
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+.blockquote{
+    background-color: #eeeeee;
+    border-left: 10px solid gray;
+    padding: 30px;
+}
+.img{
+	display: block;
+	margin: 0 auto;
+}
+.fa{
+	font-size: 1.5em;
+	color: lightgray;
+}
+

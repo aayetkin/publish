@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&ffamily=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	margin: 0;
+}
+h1, h2{
+	font-family: 'Raleway', sans-serif;
+	color: orange;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+}
+h2{
+	text-align: center;
+	font-size: 2em;
+	background-color: deeppink;
+	border-bottom: 2px black solid;
+}
+.picture{
+	background-color: 2px solid deeppink;
+	border: 2px solid orange;
+	padding: 4px;
+	margin: 8px 0 0 20px;
+	height: 200px;
+  	width: 200px;
+  	background: orange;
+  	float: right;
+}
+a:link{
+color: black;
+}
+a:visited{
+color: pink;
+}
+a:hover{
+color: orange;
+}
+a:active{
+color: black;
+}
+nav{
+	background-color: deeppink;
+	border-top: 2px orange solid;
+	border-bottom: 2px orange solid;
+	padding: 5px;
+	height: 30px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: orange;
+}
+nav a:visited{
+	color: black;
+}
+nav a:hover{
+	color: white;
+}
+nav a:active{
+	color: darkgray;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	padding: 10px;
+	background: rgb(253,29,220);
+	background: linear-gradient(90deg, rgba(253,29,220,0.8646052170868348) 11%, rgba(252,122,69,1) 100%);
+}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for smartphones*/
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+.logo{
+	display: block;
+	max-width: 400px;
+	height: auto;
+	margin:0 auto;
+}
+
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	height: 300px;
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+#home-hero h1{
+	text-align: center;
+	color: deeppink;
+	text-shadow: 2px 2px 2px black; 
+	margin: 0;
+	padding: 10px;
+	background-color: rgba(0,0,0, .5);
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 5px solid #000000;
+}
+tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+th{
+	background-color:deeppink;
+	color: orange; 
+	padding: 10px; 
+	border-bottom:3px solid #000000;
+}
+td{
+	border: 1px solid #dddddd;
+	padding: 10px;
+}
+label{
+	width: 8em;
+	padding-right: 1em;
+	text-align: center;
+} 
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	height: 20px;
+	float: center;
+}
+input[type=submit]{
+	display: block;
+	background-color: orange;
+	border-radius: 10px;
+	margin: 0 auto;
+	height: 20px;
+	border-color: deeppink;
+}
+form{
+	max-width: 300px;
+	margin: 0 auto;
+	border: 5px solid #000000;
+	background-color: #eeeeee;
+	text-align: center;
+}
+header{
+	background: rgb(253,29,220);
+	background: linear-gradient(90deg, rgba(253,29,220,0.8646052170868348) 11%, rgba(252,122,69,1) 100%);
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
